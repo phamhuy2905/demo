@@ -46,74 +46,74 @@ const app = {
         {
             name: 'Tinh yeu com rang',
             singer: 'Do Mixi',
-            path: './folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './folder/img/images (1).jpg'
+            path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
+            img: './mp3/folder/img/images (1).jpg'
         },
         {
             name: 'Crying Over You ',
             singer: 'Justatee',
-            path: './folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
-            img: './folder/img/images (2).jpg'
+            path: './mp3/folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
+            img: './mp3/folder/img/images (2).jpg'
         },
         {
             name: 'Them bao nhieu lau',
             singer: 'Dat G',
-            path: './folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
-            img: './folder/img/images.jpg'
+            path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
+            img: './mp3/folder/img/images.jpg'
         },
         {
             name: 'Tinh yeu com rang',
             singer: 'Do Mixi',
-            path: './folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './folder/img/images (1).jpg'
+            path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
+            img: './mp3/folder/img/images (1).jpg'
         },
         {
             name: 'Crying Over You ',
             singer: 'Justatee',
-            path: './folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
-            img: './folder/img/images (2).jpg'
+            path: './mp3/folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
+            img: './mp3/folder/img/images (2).jpg'
         },
         {
             name: 'Them bao nhieu lau',
             singer: 'Dat G',
-            path: './folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
-            img: './folder/img/images.jpg'
+            path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
+            img: './mp3/folder/img/images.jpg'
         },
         {
             name: 'Tinh yeu com rang',
             singer: 'Do Mixi',
-            path: './folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './folder/img/images (1).jpg'
+            path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
+            img: './mp3/folder/img/images (1).jpg'
         },
         {
             name: 'Crying Over You ',
             singer: 'Justatee',
-            path: './folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
-            img: './folder/img/images (2).jpg'
+            path: './mp3/folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
+            img: './mp3/folder/img/images (2).jpg'
         },
         {
             name: 'Them bao nhieu lau',
             singer: 'Dat G',
-            path: './folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
-            img: './folder/img/images.jpg'
+            path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
+            img: './mp3/folder/img/images.jpg'
         },
         {
             name: 'Tinh yeu com rang',
             singer: 'Do Mixi',
-            path: './folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './folder/img/images (1).jpg'
+            path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
+            img: './mp3/folder/img/images (1).jpg'
         },
         {
             name: 'Crying Over You ',
             singer: 'Justatee',
-            path: './folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
-            img: './folder/img/images (2).jpg'
+            path: './mp3/folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
+            img: './mp3/folder/img/images (2).jpg'
         },
         {
             name: 'Them bao nhieu lau',
             singer: 'Dat G',
-            path: './folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
-            img: './folder/img/images.jpg'
+            path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
+            img: './mp3/folder/img/images.jpg'
         },
     ],
 
