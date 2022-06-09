@@ -129,7 +129,7 @@ const app = {
         },
 
         {
-            name: 'Em của an đừng của ai',
+            name: 'Em của anh đừng của ai',
             singer: 'Long Cao ',
             path: './mp3/folder/path/y2mate.com - Long Cao  EM CỦA ANH ĐỪNG CỦA AI Audio.mp3',
             img: '././mp3/folder/img/14.jpg'
