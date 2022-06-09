@@ -20,19 +20,19 @@ console.log(progress)
 //     { 
 //         name: 'Tinh yeu com rang',
 //         singer: 'Do Mixi',
-//         path: './folder\path\y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
+//         path: './folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
 //         img: './folder/img/images (1).jpg'
 //     },
 //      {
 //         name: 'Crying Over You ',
 //         singer: 'Justatee',
-//         path: './folder\path\y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
+//         path: './folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
 //         img: './folder/img/images (1).jpg'
 //     },
 //      {
 //         name: 'Them bao nhieu lau',
 //         singer: 'Dat G',
-//         path: './folder\path\y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
+//         path: './folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
 //         img: './folder/img/images (1).jpg'
 //     },
 // ]
@@ -44,10 +44,10 @@ const app = {
     isRepeat: false,
     songs : [
         {
-            name: 'Tinh yeu com rang',
-            singer: 'Do Mixi',
+            name: 'Tình yêu cơm rang',
+            singer: 'Độ Mixi',
             path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './mp3/folder/img/images (1).jpg'
+            img: './mp3/folder/img/images.jpg'
         },
         {
             name: 'Crying Over You ',
@@ -56,64 +56,83 @@ const app = {
             img: './mp3/folder/img/images (2).jpg'
         },
         {
-            name: 'Them bao nhieu lau',
-            singer: 'Dat G',
+            name: 'Thêm bao nhiêu lâu',
+            singer: 'Đạt G',
             path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
             img: './mp3/folder/img/images.jpg'
         },
         {
-            name: 'Tinh yeu com rang',
-            singer: 'Do Mixi',
-            path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './mp3/folder/img/images (1).jpg'
+            name: 'Vùng Ký Ức ',
+            singer: 'Chillies',
+            path: './mp3/folder/path/y2mate.com - Vùng Ký Ức  Chillies Official Music Video.mp3',
+            img: './mp3/folder/img/3.jpg'
         },
         {
-            name: 'Crying Over You ',
-            singer: 'Justatee',
-            path: './mp3/folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
-            img: './mp3/folder/img/images (2).jpg'
+            name: 'Những con đường song song',
+            singer: 'Chillies',
+            path: './mp3/folder/path/y2mate.com - CHILLIES  NHỮNG CON ĐƯỜNG SONG SONG  OFFICIAL MUSIC AUDIO.mp3',
+            img: './mp3/folder/img/4.jpg'
         },
         {
-            name: 'Them bao nhieu lau',
-            singer: 'Dat G',
-            path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
-            img: './mp3/folder/img/images.jpg'
+            name: 'Cơn mưa cuối',
+            singer: 'JustaTee x Binz',
+            path: './mp3/folder/path/y2mate.com - Lyric Video Cơn Mưa Cuối  JustaTee x Binz.mp3',
+            img: './mp3/folder/img/5.jpg'
         },
         {
-            name: 'Tinh yeu com rang',
-            singer: 'Do Mixi',
-            path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './mp3/folder/img/images (1).jpg'
+            name: 'Nếu ngày mai không đến',
+            singer: 'Chillies',
+            path: './mp3/folder/path/y2mate.com - Nếu Ngày Mai Không Đến  Chillies.mp3',
+            img: './mp3/folder/img/6.jpg'
         },
         {
-            name: 'Crying Over You ',
-            singer: 'Justatee',
-            path: './mp3/folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
-            img: './mp3/folder/img/images (2).jpg'
+            name: 'Và thế là hết ',
+            singer: 'Chillies',
+            path: './mp3/folder/path/y2mate.com - Và Thế Là Hết  Chillies Original.mp3',
+            img: './mp3/folder/img/7.jpg'
         },
         {
-            name: 'Them bao nhieu lau',
-            singer: 'Dat G',
-            path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
-            img: './mp3/folder/img/images.jpg'
+            name: 'Yêu 5',
+            singer: 'Rhymastic',
+            path: './mp3/folder/path/y2mate.com - Lyrics  YÊU 5  Rhymastic.mp3',
+            img: './mp3/folder/img/8.jpg'
         },
         {
-            name: 'Tinh yeu com rang',
-            singer: 'Do Mixi',
-            path: './mp3/folder/path/y2mate.com - Tình yêu bát cơm rang  Thiện Hưng.mp3',
-            img: './mp3/folder/img/images (1).jpg'
+            name: 'Xích thêm chút',
+            singer: 'MCK',
+            path: './mp3/folder/path/y2mate.com - Xích Thêm Chút  XTC Remix  RPT Groovie ft TLinh x RPT MCK Prod by fatbenn  RPT LT RAPITALOVE.mp3',
+            img: './mp3/folder/img/9.jpg'
         },
         {
-            name: 'Crying Over You ',
-            singer: 'Justatee',
-            path: './mp3/folder/path/y2mate.com - Official MV Crying Over You  JustaTee ft Binz.mp3',
-            img: './mp3/folder/img/images (2).jpg'
+            name: 'Tay to',
+            singer: 'MCK',
+            path: './mp3/folder/path/y2mate.com - Rapitalove EP Tay To  RPT MCK x RPT PhongKhin prod by RPT Phongkhin Official Lyric Video.mp3',
+            img: '././mp3/folder/img/10.jpg'
         },
         {
-            name: 'Them bao nhieu lau',
-            singer: 'Dat G',
-            path: './mp3/folder/path/y2mate.com - Thêm Bao Nhiêu Lâu  Đạt G  OFFICIAL MV.mp3',
-            img: './mp3/folder/img/images.jpg'
+            name: 'Về bên anh',
+            singer: 'Jack',
+            path: './mp3/folder/path/y2mate.com - Vì đôi lúc anh thấy em giận anh quá nên thôi  Về Bên AnhLofi Ver Jack x Mihle  Lyric Video.mp3',
+            img: '././mp3/folder/img/11.jpg'
+        },
+        {
+            name: '2AM',
+            singer: 'JustaTee  feat Big Daddy',
+            path: './mp3/folder/path/y2mate.com - 2AM  JustaTee  feat Big Daddy Official Audio.mp3',
+            img: '././mp3/folder/img/12.jpg'
+        },
+        {
+            name: 'Ngày Nào',
+            singer: 'Datmaniac',
+            path: './mp3/folder/path/y2mate.com - Datmaniac  Ngày Nào ft Cá Hồi Hoang Official Audio.mp3',
+            img: '././mp3/folder/img/13.jpg'
+        },
+
+        {
+            name: 'Em của an đừng của ai',
+            singer: 'Long Cao ',
+            path: './mp3/folder/path/y2mate.com - Long Cao  EM CỦA ANH ĐỪNG CỦA AI Audio.mp3',
+            img: '././mp3/folder/img/14.jpg'
         },
     ],
 
