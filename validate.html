@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mp3\nodemy__30days\js\validate.js">
+    <link rel="stylesheet" href="mp3\nodemy__30days\css\validate.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="validate">
+        <h2 class="form__heading">Chao munng ban den voi khoa hoc Javascript</h2>
+        <h3 class="form__content">Vui long dien form dang ki</h3>
+        <form action="" class="form" id="form">
+            <div class="form__group">
+                <label for="fullname" class="form__label">Ho ten</label>
+                <input type="text" class="form__input" id="fullname">
+                <span class="form__message"></span>
+            </div>
+            <div class="form__group">
+                <label for="fullemail" class="form__label">Email</label>
+                <input type="text" class="form__input" id="fullemail">
+                <span class="form__message"></span>
+            </div>
+            <div class="form__group">
+                <label for="fullpassword" class="form__label">Mat khau</label>
+                <input type="text" class="form__input" id="fullpassword">
+                <span class="form__message"></span>
+            </div>
+            <div class="form__group">
+                <label for="confirmpassword" class="form__label">Xac nhan mat khau</label>
+                <input type="text" class="form__input" id="confirmpassword">
+                <span class="form__message"></span>
+            </div>
+        </form>
+        <button type="button" class="button">Submit</button>
+    </div>
+    <script src="mp3\nodemy__30days\js\validate.js">
+    </script>
+    <script>
+        // alert(123)
+        Validator({
+            form: '#form',
+            rules: [
+                Validator.isValid('#fullname'),
+                Validator.isEmail('#fullemail'),
+                Validator.isPassword('#fullpassword'),
+                Validator.isValid('#confirmpassword'),
+                Validator.isConfirm('#confirmpassword', function() {
+                    return document.querySelector('#fullpassword').value
+                }),
+            ],
+            onsubmit: function(data) {
+                return data
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="grid\css\base1.css">
+    <link rel="stylesheet" href="grid\js\index1.js">
+    <link rel="stylesheet" href="grid\css\main1.css">
+    <link rel="stylesheet" href="grid\css\grid.css">
+    <link rel="stylesheet" href="grid\css\responsive1.css">
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="grid"> -->
+        <div class="main" id="main">
+            <div class="sidebar hide-on-mobile-tablet">
+                <div class="logo">
+                </div>
+                <div class="danhmuc">
+                    <div class="danhmuc__twitter">
+                        <i class="danhmuc__twitter-icon fa-brands fa-twitter"></i>
+                        <span class="danhmuc__twitter-text">Twitter</span>
+                    </div>
+                    <div class="danhmuc__search">
+                        <input type="text" class="danhmuc__search-input" placeholder="Filter">
+                        <i class="danhmuc__search-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <ul class="danhmuc__list">
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 1. Item 1</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 2. Item 2</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 3. Item 3</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 4. Item 4</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 5. Item 5</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 6. Item 6</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 7. Item 7</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 8. Item 8</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 9. Item 9</a>
+                        </li>
+                        <li class="danhmuc__item">
+                            <a href="#" class="danhmuc__link"> 10. Item 10</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="app">
+                <div class="grid">
+                        <div class="header">
+                            <div class="header__menu hien-on-mobile-tablet">
+                                <i class="header__menu-icon-left fa-brands fa-facebook-square"></i>
+                                <div class="header__menu-icon-phai">
+                                    <div onclick="show();" class="header__button">
+                                        <div>
+                                            <i class="header__menu-icon-right fa-solid fa-list"></i>
+                                        </div>
+                                    </div>
+                                        <!-- <div class="header__transtion" id="header">
+                                            <a class="header__transtion-link-x" href="#"> 
+                                                <i class="header__transtion-x fa-solid fa-x"></i>
+                                            </a>
+                                            <ul class="header__transtion-list">
+                                                <li class="header__transtion-item">
+                                                    <a href="" class="header__transtion-link">Notify</a>
+                                                </li>
+                                                <li class="header__transtion-item">
+                                                    <a href="" class="header__transtion-link">Design</a>
+                                                </li>
+                                                <li class="header__transtion-item"> 
+                                                    <a href="" class="header__transtion-link">Hotline</a>
+                                                </li>
+                                                <li class="header__transtion-item">
+                                                    <a href="" class="header__transtion-link">Support</a>
+                                                </li>
+                                            </ul>
+                                        </div> -->
+
+                                </div>
+                            </div>
+                            <div class="header__top hide-on-mobile-tablet">
+                                <h5 class="header__h1">
+                                    Daily inspiration collected from daily ui archive and beyond. Hand picked, updating daily.
+                                </h5>
+                                <div class="header__text">
+                                    <a href="" class="header__text-link"> Maverl Studio</a>
+                                    <a href="" class="header__text-link"> Company</a>
+                                    <a href="" class="header__text-link">Infomation</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="design__text">
+                                <h1>Designs (14428)</h1>
+                                <p>You can see the designs from the ui challenge below, we extended it with the components we found, updating daily. See stats for frequency</p>
+                            </div>
+                            <div class="row container__top">
+                                <div class="col l-2-4 m-3 c-12"style="order: 1">
+                                    <div class="item">Item 1</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12" style="order: 2">
+                                    <div class="item">Item 2</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12"style="order: 3">
+                                    <div class="item">Item 3</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12"style="order: 4">
+                                    <div class="item">Item 4</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12"style="order: 5">
+                                    <div class="item">Item 5</div>
+                                </div>
+                                <div class="col item-6"style="order: 6">
+                                    <div class="item item-6-1 hide-on-mobile-tablet hide-on-1200px">Item 6</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-7 "style="order: 7">
+                                    <div class="item">Item 7</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-8 " style="order: 8">
+                                    <div class="item">Item 8</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-9"style="order: 9">
+                                    <div class="item">Item 9</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-10"style="order: 10">
+                                    <div class="item">Item 10</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-11"style="order: 11">
+                                    <div class="item">Item 11</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-10"style="order: 10">
+                                    <div class="item">Item 10</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-11"style="order: 11">
+                                    <div class="item">Item 11</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-10"style="order: 10">
+                                    <div class="item">Item 10</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-11"style="order: 11">
+                                    <div class="item">Item 11</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-10"style="order: 10">
+                                    <div class="item">Item 10</div>
+                                </div>
+                                <div class="col l-2-4 m-3 c-12 m-item-11"style="order: 11">
+                                    <div class="item">Item 11</div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+
+
+
+    <script>
+        
+        function toast({title="", message="", animation=""}) {
+         const main = document.getElementById('main')
+         if(main) {
+                    const toast = document.createElement('div')
+                    toast.onclick = function(e){
+                        if(e.target.closest('.header__transtion-link-x')){
+                            main.removeChild(toast);
+                        }
+                    }
+                    toast.classList.add('header__transtion');
+                    const delay = (animation / 1000);   
+                    toast.style.animation = `Easin linear ${delay}s`;
+                    toast.innerHTML = `
+                    <div class="header__transtion-link-x" href="#"> 
+                        <i class="header__transtion-x fa-solid fa-x"></i>
+                    </div>
+                    <ul class="header__transtion-list">
+                        <li class="header__transtion-item">
+                            <a href="" class="header__transtion-link">Notify</a>
+                        </li>
+                        <li class="header__transtion-item">
+                            <a href="" class="header__transtion-link">Design</a>
+                        </li>
+                        <li class="header__transtion-item"> 
+                            <a href="" class="header__transtion-link">Hotline</a>
+                        </li>
+                        <li class="header__transtion-item">
+                            <a href="" class="header__transtion-link">Support</a>
+                        </li>
+                    </ul>
+
+                    `;
+         main.appendChild(toast); 
+            }   
+        }
+
+        function show(){
+            toast({
+            title : 'Hoi lam gi',
+            message: 'notify',
+            animation: 500,
+        });
+    }
+    </script>
+</body>
+</html>

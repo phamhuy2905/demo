@@ -1,0 +1,149 @@
+
+
+
+
+/* mobile */
+@media (max-width : 739px) {
+    .hide i {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .hide__list {
+        display: none;
+    }
+    .hide__dribble {
+        font-size: 24px;
+    }
+    .header__search i, .header__search button {
+        display: none;
+    }
+    .content__inner{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        /* height: 750px; */
+        /* margin-top: 200px; */
+        padding-bottom: 30px;
+    }
+    .content__header {
+        font-size: 18px;
+    }
+    .content__text {
+        font-size: 14px;
+    }
+    .content__button {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        /* overflow: scroll; */
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .navbar, .navbar__button  {
+        display: none;
+    }
+    .button__hide {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .infomation {
+        display: none;
+    }
+
+    .footer__main {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide i {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .hide__list {
+        display: none;
+    }
+    .hide__dribble {
+        font-size: 24px;
+    }
+    .header__search i, .header__search button {
+        display: none;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        /* overflow: scroll; */
+        width: 100%;
+    }
+    .navbar, .navbar__button  {
+        display: none;
+    }
+    .navbar__list {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: -webkit-box;
+        /* -webkit-box-orient: vertical; */
+        -webkit-line-clamp: 1;
+    }
+    
+    .button__hide {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__main {
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .hide {
+        display: none;
+    }
+    .hide__dribble {
+        display: none;
+    }
+    .navbar, .navbar__button  {
+        display: none;
+    }
+    .button__hide {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar__list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+    .hide {
+        display: none;
+    }
+    .hide__dribble {
+        display: none;
+        margin-left: 200px;
+    }
+}
+
