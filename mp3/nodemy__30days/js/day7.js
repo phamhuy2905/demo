@@ -5,7 +5,6 @@ const inputElement = $('.input')
 const spanElement = $('.content__input-span')
 const buttonElement = $('.button')
 const close = $('.icon')
-const push = $('.push')
 const removeall = $('.delete')
 
 
@@ -49,7 +48,11 @@ function show(){
 
 show()
 
-buttonElement.onclick = function() {
+buttonElement.onclick = function(e) {
+    const push = $('.push')
     const test = $('.content__input-save')
-    test.removeChild(test.firstElementChild);
+    push.remove()
+    if(!push) {
+        e.preventDefault()
+    }
 }
