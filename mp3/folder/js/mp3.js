@@ -357,6 +357,7 @@ const app = {
         }while(this.currentIndex == random)
         this.currentIndex = random
         app.loadSong()
+        audio.play()
     },
 
     repeatSong: function() {
