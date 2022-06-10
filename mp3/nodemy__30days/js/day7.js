@@ -6,17 +6,50 @@ const spanElement = $('.content__input-span')
 const buttonElement = $('.button')
 const close = $('.icon')
 const push = $('.push')
+const removeall = $('.delete')
 
 
 
 
-document.addEventListener('keydown', function(e) {
-    if(e.which == 13) {
-        spanElement.innerText = (inputElement.value)
+// document.addEventListener('keydown', function(e) {
+//     if(e.which == 13) {
+//         spanElement.innerText = (inputElement.value)
+//     }
+// })
+
+
+
+function toast({title="", message="", animation=""}) {
+    const main = document.querySelector('.content__input')
+    if(main) {
+        console.log(main)
+        const toast = document.createElement('div')
+        toast.classList.add('content__input-save');
+        // toast.style.animation = `Easin ease-in 1s`;
+         toast.innerHTML = `
+         <div class="push">
+            <span class="content__input-span">ReacJs</span>
+            <i class="fa-solid fa-xmark icon"></i>
+        </div>
+        <div class="push">
+            <span class="content__input-span">PHP</span>
+            <i class="fa-solid fa-xmark icon"></i>
+        </div>
+         `;
+         main.appendChild(toast); 
     }
-})
+}
+function show(){
+    toast({
+    title : 'Hoi lam gi',
+    message: 'notify',
+    animation: 500,
+});
+}
 
-buttonElement.addEventListener('click', function() {
-    push.classList.add('remove')
-    console.log(123)
-})
+show()
+
+buttonElement.onclick = function() {
+    const test = $('.content__input-save')
+    test.removeChild(test.firstElementChild);
+}
