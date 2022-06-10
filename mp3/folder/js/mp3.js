@@ -2,6 +2,7 @@
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
+const dashboard = $('.dashboard')
 const playlist = $('.playlist')
 const cd = $('.cd');
 const header = $('.header__h2')
@@ -183,11 +184,17 @@ const app = {
 
     scrollTop: function() {
         const Width = cd.offsetWidth
+        const widthDashboard = dashboard.offsetHeight
         document.onscroll = function() {
             const scrollTop = window.scrollY || document.documentElement.scrollTop
             const newWidth = Width - scrollTop
             cd.style.width = newWidth > 0 ? newWidth + 'px' :0
         }
+        // document.onscroll = function() {
+        //     const scrollTop1 = window.scrollY || document.documentElement.scrollTop
+        //     const newWidth1 = widthDashboard - scrollTop1
+        //     dashboard.style.height = newWidth1 > 0 ? newWidth1 + 'px' :0
+        // }
     },
 
 
