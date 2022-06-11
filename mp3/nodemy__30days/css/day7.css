@@ -42,6 +42,7 @@ body {
     margin: 15px 10px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -54,10 +55,12 @@ body {
     border-radius: 5px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .content__input-span {
     margin-right: 10px;
+    color: white;
 }
 
 .input {

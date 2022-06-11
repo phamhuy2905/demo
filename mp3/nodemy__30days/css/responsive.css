@@ -13,7 +13,12 @@
     }
     .hide__dribble {
         font-size: 24px;
+         margin-left: 40px;
     }
+    .header__search-text {
+        margin-right: 0;
+    }
+    
     .header__search i, .header__search button {
         display: none;
     }
@@ -28,10 +33,14 @@
     }
     .content__header {
         font-size: 18px;
+        margin: 10px auto;
     }
     .content__text {
         font-size: 14px;
+        margin-left: 20px;
+        margin-top: 10px;
     }
+    
     .content__button {
         text-align: center;
         margin: 0 auto;
@@ -44,6 +53,9 @@
         overflow-x: auto;
         overflow-y: hidden;
     }
+    .navbar__list {
+        padding-left: 12px;
+    }
     .navbar, .navbar__button  {
         display: none;
     }
@@ -51,6 +63,7 @@
         display: block;
         display: flex;
         justify-content: space-between;
+        padding: 5px 2px;
     }
     .infomation {
         display: none;
@@ -60,6 +73,9 @@
         margin-bottom: 30px;
     }
 
+    .button__footer-button1 {
+        margin-top: 15px;
+    }
 
 }
 
