@@ -65,8 +65,9 @@
         justify-content: space-between;
         padding: 5px 2px;
     }
-    .infomation {
-        display: none;
+    .infomation__header {
+        /* display: none; */
+        margin-left: -30px;
     }
 
     .footer__main {
@@ -162,4 +163,10 @@
         margin-left: 200px;
     }
 }
+
+
+
+
+
+
 
