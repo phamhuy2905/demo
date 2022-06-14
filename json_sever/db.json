@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "title": "Java",
+      "author": "Ruby",
+      "id": 1
+    },
+    {
+      "title": "PHP",
+      "author": "Javascript",
+      "id": 2
+    },
+    {
+      "title": "Java1",
+      "author": "Ruby2",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
